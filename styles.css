@@ -3,9 +3,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 0;
     color: darkgreen;
 }
@@ -17,6 +14,12 @@ header {
 h1 {
     color: darkgreen;
     margin: 0.5em 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
@@ -46,4 +49,18 @@ td {
 
 .code {
     font-family: monospace, 'Courier New', Courier;
+}
+
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+footer {
+    margin-top: 4em;
+    border-top: 1px dashed darkseagreen;
 }
