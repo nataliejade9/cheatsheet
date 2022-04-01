@@ -30,6 +30,7 @@ h2 {
 
 table {
     margin-top: 1em;
+    border: 1px solid hotpink;
 }
 
 thead {
@@ -63,4 +64,6 @@ a:hover {
 footer {
     margin-top: 4em;
     border-top: 1px dashed darkseagreen;
+    text-decoration: underline;
+    font-weight: 100;
 }
